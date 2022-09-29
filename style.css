@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+ body {font-family: 'Open Sans', sans-serif;} 
+
+ *{
+   box-sizing: border-box;
+   margin: 0px;
+   font-size: 16px;
+   text-decoration: none;
+ }
+
+ /* fonts */
+.card-tittle {
+font-size: 3.125rem;
+margin-bottom: 0.5rem;
+line-height: 1.1;
+font-weight: 200;
+}
+
+.card-subtittle {
+font-size: 1.625rem;
+font-weight: 400;
+margin: 1rem 0;
+}
+
+.email-form title {
+font-size: 1.2rem;
+font-weight: 500;
+padding-bottom: 20px;
+}
+
+/* BANNER WRAP SECTION */
+.banner-wrap {
+   background-image:url(./assets/banner-image.jpg);
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 110vh;
+   z-index: 1;
+   border-bottom: 10px grey;
+   position: relative;
+}
+
+.overlay {
+   z-index: -1;
+   height: 100%;
+   width: 100%;
+   background: black;
+   opacity: 60%;
+   position: absolute;
+   top: 0;
+}
+
+.Nevbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 100px;
+   margin: 0px 45px;
+   padding-top: 5px;
+}
+
+.Nevbar img{
+height: 35px;
+font-size: 16px;
+padding-top: 0x;
+}
+
+.Nevbar > a {
+   padding: 7px 17px;
+   color: white;
+   background-color: #e50914;
+   text-decoration: none;
+   border-radius: 3px;
+   font-size: 15px;
+   font-weight: 700;
+}
+
+.banner-container {
+   display: flex;
+   color: white;
+   flex-direction: column;
+   align-items: center;
+   height:80%;
+   justify-content: center;
+   text-align: center;
+}
+
+.getstarted-form {
+   height: 40px;
+   display: flex;
+}
+
+h3 {
+   font-weight: 300;
+}
+
+.getstarted-form input {
+height: 60px;
+width: 440px;
+padding-left: 10px;
+}
+.getstarted-form button {
+   background-color: #e50914;
+   color: white;
+   /* height: 98%; */
+   font-size: 1rem;
+   height: 60px;
+   border: none;
+   cursor: pointer;
+   padding: 0 26px;
+   border-left: 1px solid grey;
+}
+
+.infor-container {
+   background: black;
+   color: white;
+   display: flex;
+   padding: 70px 45px;
+   border-bottom: 7px solid #222222;
+   border-top: 7px solid #222222;
+}
+
+.infor {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.tv-container{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.tv-container img {
+   z-index: 1;
+}
+
+.tv-container video {
+position: absolute;
+}
+
+/* footer-styles */
+
+
+.footer {
+   background-color: black;
+}
+
+.footer-top{
+   margin-bottom: 35px;
+}
+
+.footer-items {
+   margin: 0 47.5px;
+   padding: 70px 45px;
+}
+
+.footer ul li, .question {
+   color: gray;
+}
+
+.footer-links li {
+   font-size: 13px;
+   line-height: 2;
+}
+
+.footer ul li:hover, .question:hover{
+   text-decoration: underline;
+   cursor: pointer;
+}
+.footer-links {
+   list-style-type: none;
+   columns: 4;
+   padding: 0;
+}
+.language {
+   height: 40px;
+   width: 135px;
+   color: gray;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   border: 1px solid gray;
+   padding: 0px 5px;
+   margin-top: 30px;
+}
+.language select {
+   margin: 10px;
+   border: none;
+   appearance: none;
+   background: black;
+   color: gray; 
+}
+
+.footer-country {
+   font-size: 13px;
+   margin-top: 24px;
+   color: gray;
+}
